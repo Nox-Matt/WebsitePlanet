@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+
+h1.headingatas {
+  text-align: center;
+  border: 20px;
+  border-color: white;
+  border-radius: 10px;
+}
+@media (min-width: 1200px) {
+  .header-controller {
+    background-image: radial-gradient(white 10%, blue 30%, transparent 70%);
+    width: 1450px;
+    margin: 0px auto;
+    padding-left: 0px;
+  }
+}
+.header-font {
+  color: #fff;
+  text-shadow: 0 0 20px #fff, 0 0 100px #fff, 0 0 10px #fff,
+    /* Green glow */ 0 0 42px rgb(253, 253, 253), 0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(255, 255, 255), 0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.bg-size {
+  background: url("https://free4kwallpapers.com/uploads/originals/2019/07/01/blue-galaxy-wallpaper.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+aside.left {
+  float: left;
+  padding-top: 10px;
+}
+aside.right {
+  float: right;
+  padding-top: 10px;
+}
+.item-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 410px;
+  height: 420px;
+  text-align: center;
+  border: rgb(255, 255, 255) thin solid;
+  border-radius: 20px;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border: rgb(255, 255, 255) thin solid;
+  border-radius: 20px;
+}
+.item-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1030px;
+  height: 460px;
+  text-align: left;
+  border: rgb(255, 255, 255) thin solid;
+  border-radius: 20px;
+  background-color: black;
+  padding-right: 5px;
+}
+.controller-1 {
+  width: 412px;
+  height: 422px;
+  border-radius: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.topnav b {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.topnav a:hover {
+  background-color: rgba(35, 16, 243, 0.6);
+  color: rgb(255, 255, 255);
+}
+.topnav b:hover {
+  background-color: rgba(35, 16, 243, 0.6);
+  color: rgb(255, 255, 255);
+}
+.topnav c:hover {
+  background-color: rgba(35, 16, 243, 0.6);
+  color: rgb(255, 255, 255);
+}
+.controller {
+  width: 402px;
+  height: 400px;
+  border-radius: 20px;
+}
