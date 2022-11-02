@@ -1,0 +1,109 @@
+
+.background-about-us {
+    background: repeating-linear-gradient(
+      to top,
+      #0c0210,
+      #170420 50%,
+      #120318 50%,
+      #16021c
+    );
+  }
+  
+  @keyframes pulsate {
+    100% {
+      text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f09,
+        0 0 80px #f09, 0 0 90px #f09, 0 0 100px #f09, 0 0 150px #f09;
+    }
+  
+    0% {
+      text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 18px #fff, 0 0 38px #f09,
+        0 0 73px #f09, 0 0 80px #f09, 0 0 94px #f09, 0 0 140px #f09;
+    }
+  }
+  
+  .header-flicker {
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    color: #fff;
+  }
+  h1.heading-flicker {
+    text-align: left;
+    padding-left: 10px;
+    border: 20px;
+    font-size: 48pt;
+    border-color: white;
+    border-radius: 10px;
+  }
+  @media (max-width: 1200px) {
+    h1.heading-flicker-1 {
+      text-align: center;
+      border: 20px;
+      font-size: 28pt;
+      border-color: white;
+      border-radius: 10px;
+    }
+  }
+  .mypict {
+    width: 300px;
+    height: 450px;
+    border: 40px white;
+    border-radius: 5px;
+  }
+  @media (max-width: 1200px) {
+    .mypict {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 30%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .face-pict {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: 40%;
+      border-radius: 5px;
+      border: rgb(255, 255, 255) thin solid;
+    }
+  }
+  .face-pict {
+    display: flex;
+    flex-direction: flex;
+    width: auto;
+    height: 40%;
+    border-radius: 5px;
+    border: rgb(255, 255, 255) thin solid;
+  }
+  p.padding-about-me {
+    float: right;
+    padding-left:20px;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  @media (max-width: 1200px) {
+    p.padding-about-me {
+      padding-left: 20px;
+      float: left;
+      padding-left: 20px;
+      align-items: center;
+      font-size: 16pt;
+      color: aliceblue;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  }
+  aside.right {
+    float: right;
+    padding-left:60px;
+    width: 74%;
+  }
+  @media(max-width:1200px){
+    aside.right {
+      float: left;
+      padding-left:auto;
+      align-items: center;
+      width:80%;
+    }
+  }
+  
